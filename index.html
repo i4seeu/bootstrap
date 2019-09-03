@@ -7,6 +7,335 @@
   </head>
 
   <body>
+
+  <!--Bootstrap Nav-->
+
+<!--Basic Nav with Bootstrap-->
+<nav class="nav">
+    <a href="#" class="nav-item nav-link active">Home</a>
+    <a href="#" class="nav-item nav-link">Profile</a>
+    <a href="#" class="nav-item nav-link">Messages</a>
+    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+</nav>
+
+<br><br>
+
+<!--Alignment of Nav Items-->
+
+<!--align nav items to center-->
+<nav class="nav justify-content-center">
+    <a href="#" class="nav-item nav-link active">Home</a>
+    <a href="#" class="nav-item nav-link">Profile</a>
+    <a href="#" class="nav-item nav-link">Messages</a>
+    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+</nav>
+
+<br><br>
+
+<!--align nav items to right-->
+<nav class="nav justify-content-end">
+    <a href="#" class="nav-item nav-link active">Home</a>
+    <a href="#" class="nav-item nav-link">Profile</a>
+    <a href="#" class="nav-item nav-link">Messages</a>
+    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+</nav>
+
+<br><br>
+
+<!--vertically stack your nav items by changing the flex
+item direction with the class .flex-column-->
+<nav class="nav flex-column">
+    <a href="#" class="nav-item nav-link active">Home</a>
+    <a href="#" class="nav-item nav-link">Profile</a>
+    <a href="#" class="nav-item nav-link">Messages</a>
+    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+</nav>
+<hr>
+
+<br><br>
+<!--Creating the Basic Tabs-->
+
+<!--basic nav to generate a tabbed navigation-->
+<nav class="nav nav-tabs">
+    <a href="#" class="nav-item nav-link active">Home</a>
+    <a href="#" class="nav-item nav-link">Profile</a>
+    <a href="#" class="nav-item nav-link">Messages</a>
+    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+</nav>
+
+<br><br>
+
+<!--add icons to your tab items-->
+<nav class="nav nav-tabs">
+    <a href="#" class="nav-item nav-link active">
+        <i class="fa fa-home"></i> Home
+    </a>
+    <a href="#" class="nav-item nav-link">
+        <i class="fa fa-user"></i> Profile
+    </a>
+    <a href="#" class="nav-item nav-link">
+        <i class="fa fa-envelope"></i> Messages
+    </a>
+    <a href="#" class="nav-item nav-link disabled" tabindex="-1">
+        <i class="fa fa-line-chart"></i> Reports
+    </a>
+</nav>
+
+<br><br>
+
+<!--Creating the Pills Nav-->
+<nav class="nav nav-pills">
+    <a href="#" class="nav-item nav-link active">Home</a>
+    <a href="#" class="nav-item nav-link">Profile</a>
+    <a href="#" class="nav-item nav-link">Messages</a>
+    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+</nav>
+
+<br><br>
+
+<!--add icons to your pills nav-->
+<nav class="nav nav-pills">
+    <a href="#" class="nav-item nav-link active">
+        <i class="fa fa-home"></i> Home
+    </a>
+    <a href="#" class="nav-item nav-link">
+        <i class="fa fa-user"></i> Profile
+    </a>
+    <a href="#" class="nav-item nav-link">
+        <i class="fa fa-envelope"></i> Messages
+    </a>
+    <a href="#" class="nav-item nav-link disabled" tabindex="-1">
+        <i class="fa fa-line-chart"></i> Reports
+    </a>
+</nav>
+
+<br><br>
+
+<!--pills nav appear vertically stacked-->
+<nav class="nav nav-pills flex-column">
+    <a href="#" class="nav-item nav-link active">
+        <i class="fa fa-home"></i> Home
+    </a>
+    <a href="#" class="nav-item nav-link">
+        <i class="fa fa-user"></i> Profile
+    </a>
+    <a href="#" class="nav-item nav-link">
+        <i class="fa fa-envelope"></i> Messages
+    </a>
+    <a href="#" class="nav-item nav-link disabled" tabindex="-1">
+        <i class="fa fa-line-chart"></i> Reports
+    </a>
+</nav>
+
+<hr>
+
+<br><br>
+
+<!--Bootstrap Tabs and Pills Nav with Dropdown Menus-->
+
+<!--Tabs with Dropdowns-->
+<nav class="nav nav-tabs">
+    <a href="#" class="nav-item nav-link active">Home</a>
+    <a href="#" class="nav-item nav-link">Profile</a>
+    <div class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Messages</a>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Inbox</a>
+            <a href="#" class="dropdown-item">Sent</a>
+            <a href="#" class="dropdown-item">Drafts</a>
+        </div>
+    </div>
+    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+</nav>
+
+<br><br>
+
+<!--Pills with Dropdowns-->
+<nav class="nav nav-pills">
+    <a href="#" class="nav-item nav-link active">Home</a>
+    <a href="#" class="nav-item nav-link">Profile</a>
+    <div class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Messages</a>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Inbox</a>
+            <a href="#" class="dropdown-item">Sent</a>
+            <a href="#" class="dropdown-item">Drafts</a>
+        </div>
+    </div>
+    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+</nav>
+
+<br><br>
+
+<!--Fill and Justify Nav Component-->
+<nav class="nav nav-pills nav-fill">
+    <a href="#" class="nav-item nav-link">Home</a>
+    <a href="#" class="nav-item nav-link">About</a>
+    <a href="#" class="nav-item nav-link active">Explore Products</a>
+    <a href="#" class="nav-item nav-link">Contact Us</a>
+</nav>
+
+<br><br>
+
+<!--you can use the class .nav-justified instead of.nav-fill-->
+<nav class="nav nav-pills nav-justified">
+    <a href="#" class="nav-item nav-link">Home</a>
+    <a href="#" class="nav-item nav-link">About</a>
+    <a href="#" class="nav-item nav-link active">Explore Products</a>
+    <a href="#" class="nav-item nav-link">Contact Us</a>
+</nav>
+
+<hr>
+
+<br><br>
+
+<!--Bootstrap Navbar-->
+
+<!--Simple Navbar-->
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a href="#" class="navbar-brand">Brand</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link active">Home</a>
+            <a href="#" class="nav-item nav-link">Profile</a>
+            <a href="#" class="nav-item nav-link">Messages</a>
+            <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+        </div>
+        <div class="navbar-nav ml-auto">
+            <a href="#" class="nav-item nav-link">Login</a>
+        </div>
+    </div>
+</nav>
+
+<br><br>
+
+<!--setting the logo height manually to fit-->
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a href="#" class="navbar-brand">
+        <img src="images/logo.svg" height="28" alt="CoolBrand">
+    </a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link active">Home</a>
+            <a href="#" class="nav-item nav-link">Profile</a>
+            <a href="#" class="nav-item nav-link">Messages</a>
+            <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+        </div>
+        <div class="navbar-nav ml-auto">
+            <a href="#" class="nav-item nav-link">Login</a>
+        </div>
+    </div>
+</nav>
+
+<br><br>
+
+<!--Adding Dropdowns to Navbar-->
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a href="#" class="navbar-brand">Brand</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+        <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link active">Home</a>
+            <a href="#" class="nav-item nav-link">Profile</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Messages</a>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Inbox</a>
+                    <a href="#" class="dropdown-item">Sent</a>
+                    <a href="#" class="dropdown-item">Drafts</a>
+                </div>
+            </div>
+        </div>
+        <form class="form-inline">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-secondary"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </form>
+        <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link">Login</a>
+        </div>
+    </div>
+</nav>
+
+<br><br>
+
+<!--Placing Search Form inside Navbar-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a href="#" class="navbar-brand">Brand</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link active">Home</a>
+            <a href="#" class="nav-item nav-link">About</a>
+            <a href="#" class="nav-item nav-link">Products</a>
+        </div>
+        <form class="form-inline ml-auto">
+            <input type="text" class="form-control mr-sm-2" placeholder="Search">
+            <button type="submit" class="btn btn-outline-light">Search</button>
+        </form>
+    </div>
+</nav>
+
+<br><br>
+
+<!--Changing the Color Scheme of Navbars-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <!-- Navbar content -->
+</nav>
+
+<nav class="navbar navbar-dark bg-primary">
+    <!-- Navbar content -->
+</nav>
+
+<nav class="navbar navbar-light" style="background-color: #ddeeff;">
+    <!-- Navbar content -->
+</nav>
+
+<hr>
+
+<br><br>
+
+<!--Bootstrap Fixed Navbar-->
+
+<!-- Fixed to Top Navbar-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <!-- Navbar content -->
+</nav>
+
+<br><br>
+
+<!--Fixed to Bottom Navbar-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-bottom">
+    <!-- Navbar content -->
+</nav>
+
+<br><br>
+
+<!--Sticky Top Navbar-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <!-- Navbar content -->
+</nav>
+
+<hr>
+<br><br>
+
 <div class="container">
   <div class="col-md-12">
 
@@ -102,6 +431,194 @@
                   </div>
     </div>
   </div>
+
+<br>
+<hr>
+
+  <!--buttons-->
+  <h5>BUTTONS STYLES</h5>
+
+        <!--Bootstrap Button Styles-->
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-link">Link</button>
+
+<br><br>
+
+<!--Bootstrap Outline Buttons-->
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+<button type="button" class="btn btn-outline-light">Light</button>
+
+<br><br>
+
+<!--Changing the Sizes of Buttons-->
+<button type="button" class="btn btn-primary btn-lg">Large</button>
+<button type="button" class="btn btn-primary">Default</button>
+<button type="button" class="btn btn-primary btn-sm">Small</button>
+
+<br><br>
+
+<!--Changing to block buttons-->
+<button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+<button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+
+<br><br>
+
+<!--Disabled Buttons Using Button and Input Element-->
+<button type="button" class="btn btn-primary btn-lg" disabled>Primary button</button>
+<button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+
+<br><br>
+
+<!--Creating Disabled Buttons Using Anchor Elements-->
+<a href="#" class="btn btn-primary btn-lg disabled">Primary link</a>
+<a href="#" class="btn btn-secondary btn-lg disabled">Link</a>
+
+<br><br>
+
+<!--Bootstrap Active Buttons-->
+<a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
+<a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
+
+<br><br>
+
+<!--Creating Spinner Buttons-->
+<button type="button" class="btn btn-primary" disabled>
+  <span class="spinner-border spinner-border-sm"></span>
+</button>
+
+<button type="button" class="btn btn-primary" disabled>
+  <span class="spinner-border spinner-border-sm"></span> Loading...
+</button>
+
+<button type="button" class="btn btn-primary" disabled>
+  <span class="spinner-grow spinner-grow-sm"></span> Loading...
+</button>
+
+<br><br>
+<hr>
+<!--Button Groups--->
+
+<!--Bootstrap Button Groups-->
+
+<!--Creating Button Groups with Bootstrap-->
+<div class="btn-group">
+    <button type="button" class="btn btn-primary">Home</button>
+    <button type="button" class="btn btn-primary">About</button>
+    <button type="button" class="btn btn-primary">Services</button>
+</div>
+
+<br><br>
+
+<!--Creating Button Toolbar-->
+<div class="btn-group mr-2">
+    <button type="button" class="btn btn-primary">
+        <i class="fa fa-font"></i>
+    </button>
+    <button type="button" class="btn btn-primary">
+        <i class="fa fa-bold"></i>
+    </button>
+    <button type="button" class="btn btn-primary">
+        <i class="fa fa-italic"></i>
+    </button>
+</div>
+
+<div class="btn-group mr-2">
+<button type="button" class="btn btn-primary">
+    <i class="fa fa-align-left"></i>
+</button>
+<button type="button" class="btn btn-primary">
+    <i class="fa fa-align-center"></i>
+</button>
+<button type="button" class="btn btn-primary">
+    <i class="fa fa-align-right"></i>
+</button>
+<button type="button" class="btn btn-primary">
+    <i class="fa fa-align-justify"></i>
+  </button>
+</div>
+
+<div class="btn-group">
+    <button type="button" class="btn btn-primary">
+        <i class="fa fa-undo"></i>
+    </button>
+</div>
+
+<br><br>
+
+<!--Height Sizing of Button Groups--->
+<div class="btn-group mb-2 btn-group-lg">
+    <button type="button" class="btn btn-primary">Home</button>
+    <button type="button" class="btn btn-primary">About</button>
+    <button type="button" class="btn btn-primary">Services</button>
+</div>
+
+<br><br>
+
+<div class="btn-group mb-2">
+    <button type="button" class="btn btn-primary">Home</button>
+    <button type="button" class="btn btn-primary">About</button>
+    <button type="button" class="btn btn-primary">Services</button>
+</div>
+
+<br><br>
+
+<div class="btn-group btn-group-sm">
+    <button type="button" class="btn btn-primary">Home</button>
+    <button type="button" class="btn btn-primary">About</button>
+    <button type="button" class="btn btn-primary">Services</button>
+</div>
+
+<br><br>
+
+<!--Nesting Button Groups--->
+<div class="btn-group">
+    <a href="#" class="btn btn-primary">Home</a>
+    <a href="#" class="btn btn-primary">About</a>
+    <div class="btn-group">
+        <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Services</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Web Design</a>
+            <a class="dropdown-item" href="#">Web Development</a>
+        </div>
+    </div>
+</div>
+
+<br><br>
+
+<!--Vertically Stacked Button Groups--->
+<div class="btn-group-vertical">
+    <a href="#" class="btn btn-primary">Home</a>
+    <a href="#" class="btn btn-primary">About</a>
+    <div class="btn-group">
+        <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Services</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Web Design</a>
+            <a class="dropdown-item" href="#">Web Development</a>
+        </div>
+    </div>
+</div>
+
+<br><br>
+
+<!--Creating Justified Button Groups--->
+<div class="btn-group d-flex">
+    <button type="button" class="btn btn-primary">Home</button>
+    <button type="button" class="btn btn-primary">About</button>
+    <button type="button" class="btn btn-primary">Services</button>
+</div>
 
 <script src="lib/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
   </body>
