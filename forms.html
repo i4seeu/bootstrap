@@ -18,6 +18,8 @@
               </center>
             </p>
        </div>
+
+<!--simple table layout--->
        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12">
        <table class="table">
          <thead>
@@ -52,6 +54,8 @@
        </div>
        </div>
      </div>
+
+<!--simple form layout-->
      <div class="col-md-12">
          <div class="row">
              <div class="col-md-6">
@@ -72,6 +76,8 @@
              </div>
          </div>
      </div>
+
+<!--Centered Form Layout-->
      <div class="col-md-12">
         <div class="row">
           <div class="offset-md-4 col-md-4">
@@ -90,6 +96,182 @@
         </div>
      </div>
      </div>
+
+<br><br>
+
+<!--Horizontal Form Layout-->
+<div class="col-md-12">
+  <div class="row">
+    <div class="col-md-6">
+       <form>
+           <div class="form-group row">
+               <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+               <div class="col-sm-10">
+                   <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+               </div>
+           </div>
+           <div class="form-group row">
+               <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+               <div class="col-sm-10">
+                   <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+               </div>
+           </div>
+           <div class="form-group row">
+               <div class="col-sm-10 offset-sm-2">
+                   <label class="form-check-label"><input type="checkbox"> Remember me</label>
+               </div>
+           </div>
+           <div class="form-group row">
+               <div class="col-sm-10 offset-sm-2">
+                   <button type="submit" class="btn btn-primary">Sign in</button>
+               </div>
+           </div>
+       </form>
+    </div>
+  </div>
+</div>
+
+<!--Static Form Control-->
+<div class="row">
+  <div class="col-md-12">
+      <form>
+            <div class="form-group row">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="inputEmail" value="peterparker@example.com">
+                  </div>
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input type="password" class="form-control">
+              <small class="form-text text-muted">
+                  Your password must be 8-20 characters long, contain letters,
+                  numbers and special characters, but must not contain spaces.
+              </small>
+          </div>
+            <div class="form-group row">
+              <div class="col-sm-10 offset-sm-2">
+                  <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                  </div>
+              </div>
+            </div>
+              <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+              </div>
+    </form>
+  </div>
+</div>
+
+    <!---Inline Form Layout-->
+      <div class="row">
+        <div class="col-md-12">
+            <form class="form-inline">
+                <div class="form-group mr-2">
+                    <label class="sr-only" for="inputEmail">Email</label>
+                      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                  </div>
+                    <div class="form-group mr-2">
+                        <label class="sr-only" for="inputPassword">Password</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+                      <div class="form-group mr-2">
+                        <label><input type="checkbox" class="mr-1"> Remember me</label>
+                      </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+              </form>
+            </div>
+          </div>
+<br><br>
+
+        <!-- Inline checkboxes -->
+        <div class="form-group">
+            <label class="mr-3">
+                <input type="checkbox" class="mr-1" name="sports"> Cricket
+            </label>
+            <label class="mr-3">
+                <input type="checkbox" class="mr-1" name="sports"> Football
+            </label>
+            <label class="mr-3">
+                <input type="checkbox" class="mr-1" name="sports"> Tennis
+            </label>
+        </div>
+        <!-- Inline radios -->
+        <div class="form-group">
+            <label class="mr-3">
+                <input type="radio" class="mr-1" name="gender"> Male
+            </label>
+            <label class="mr-3">
+                <input type="radio" class="mr-1" name="gender"> Female
+            </label>
+        </div>
+
+<br><br>
+
+      <form>
+          <div class="form-group">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control is-valid" id="inputEmail" placeholder="Email" value="peterparker@example.com" required>
+              <div class="valid-feedback">Good! Your email address looks valid.</div>
+          </div>
+          <div class="form-group">
+              <label for="inputPassword">Password</label>
+              <input type="password" class="form-control is-invalid" id="inputPassword" placeholder="Password" required>
+              <div class="invalid-feedback">Opps! You have entered an invalid password.</div>
+          </div>
+          <div class="form-group">
+              <label class="form-check-label"><input type="checkbox"> Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+
+<br><br>
+
+      <div class="custom-control custom-switch">
+          <input type="checkbox" class="custom-control-input" id="customSwitch1">
+          <label class="custom-control-label" for="customSwitch1">Toggle switch</label>
+      </div>
+      <div class="custom-control custom-switch mt-2">
+          <input type="checkbox" class="custom-control-input" disabled id="customSwitch2">
+          <label class="custom-control-label" for="customSwitch2">Disabled switch element</label>
+      </div>
+
+<br><br>
+
+      <select class="custom-select custom-select-lg">
+          <option selected>Large custom select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+      </select>
+
+      <br><br>
+
+      <select class="custom-select mt-3">
+          <option selected>Default custom select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+      </select>
+
+      <br><br>
+
+      <select class="custom-select custom-select-sm mt-3">
+          <option selected>Small custom select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+      </select>
+
+<br><br>
+
+<label for="customRange">Custom range</label>
+<input type="range" class="custom-range" id="customRange">
+
+<br><br>
+
   <script src="lib/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
   </body>
   </html>
